@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 2%;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+div{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 1em;
+}
+h3{
+    font-size: 0.8em;
+}
+p{
+    font-size: 0.5em;
+}
+a{
+    font-size: 0.4em ;
+}
+@media screen and (min-width:600px){
+   body{
+       font-size: 40px;
+   }
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+    body{
+        font-size: 10px;
+    }
+
+    
+}
